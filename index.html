@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Aura TV — Tu contenido. A tu manera.</title>
+  <meta name="description" content="Descarga Aura TV, vincula tu pantalla y administra tus listas y add-ons desde un solo lugar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20261108-3" />
+</head>
+<body>
+<header class="nav-shell">
+  <nav aria-label="Navegación principal">
+    <a href="#hero" class="brand"><img src="aura_logo_inner.png" alt="Aura TV"></a>
+    <a href="#hero" class="nav-home" data-nav-item="hero">Inicio</a>
+    <a href="#downloads" data-nav-item="downloads">Descargas</a>
+    <a href="#features" class="nav-extra" data-nav-item="features">Experiencia</a>
+    <a href="#device" class="nav-link" data-nav-item="device">Mi TV <span>↗</span></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="eyebrow"><i></i> TU CONTENIDO. A TU MANERA.</div>
+    <h1>Tu próxima gran historia.<br><span>En tu pantalla favorita.</span></h1>
+    <p>Un lugar para todo lo que te gusta ver. Conecta tus listas,<br class="desktop"> organiza tus fuentes y lleva Aura TV a tu televisor.</p>
+    <div class="actions">
+      <a class="button primary" href="#downloads"><span>↓</span> Descargar Aura TV</a>
+      <a class="button secondary" href="#device">Vincular mi TV <span>↗</span></a>
+    </div>
+    <p class="hero-note">Tú eliges el contenido. Aura TV pone la experiencia.</p>
+
+    <div class="showcase" aria-label="Concepto visual ilustrativo de la interfaz de Aura TV">
+      <div class="tv">
+        <div class="screen">
+          <aside>
+            <img src="aura_logo_inner.png" alt="">
+            <span>⌂</span>
+            <span>⌕</span>
+            <span>▣</span>
+            <span>♡</span>
+            <span>⚙</span>
+          </aside>
+          <div class="screen-body">
+            <div class="screen-nav">
+              <b>Para ti</b>
+              <span>TV en vivo</span>
+              <span>Películas</span>
+              <span>Series</span>
+              <em>A</em>
+            </div>
+            <div class="movie">
+              <small>AURA · EXPLORA TU MUNDO</small>
+              <h2>Más allá<br>del horizonte.</h2>
+              <p>Hay historias que merecen una gran pantalla.</p>
+              <span class="mock-play">▶ &nbsp; Descubrir</span>
+            </div>
+            <div class="film-row">
+              <div class="film f1"><small>NATURALEZA</small><b>TIERRA<br>SALVAJE</b></div>
+              <div class="film f2"><small>UN NUEVO VIAJE</small><b>HORIZONTE</b></div>
+              <div class="film f3"><small>EL SILENCIO DEL</small><b>OCÉANO</b></div>
+              <div class="film f4"><small>MÁS CERCA DE</small><b>LAS ESTRELLAS</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remote" aria-hidden="true">
+        <i></i>
+        <div class="remote-ring">●</div>
+        <div class="remote-buttons">⌂ &nbsp; ←<br>− &nbsp; +<br>◀ &nbsp; ▶</div>
+        <img src="aura_logo_inner.png" alt="">
+      </div>
+    </div>
+    <div class="visual-caption">VISTA CONCEPTUAL DE LA EXPERIENCIA AURA TV</div>
+    <div class="platforms">
+      <span>Android</span>
+      <span>Android TV</span>
+      <span>Fire TV</span>
+      <span>Samsung Tizen</span>
+      <span>Roku</span>
+      <span>Windows 10/11</span>
+    </div>
+  </section>
+
+  <section id="downloads" class="section">
+    <div class="section-intro">
+      <span class="eyebrow">EMPIEZA POR TU PANTALLA</span>
+      <h2>Elige dónde verlo.</h2>
+      <p>Tu experiencia Aura TV empieza aquí.</p>
+    </div>
+
+    <div class="download-tabs" role="tablist" aria-label="Plataformas">
+      <button type="button" class="os-tab" data-os-tab="mobile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        <span>Android</span>
+      </button>
+      <button type="button" class="os-tab active" data-os-tab="android">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <span>TV</span>
+      </button>
+      <button type="button" class="os-tab" data-os-tab="samsung">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M7 21h10"/><circle cx="12" cy="10" r="2"/></svg>
+        <span>Smart TV</span>
+      </button>
+      <button type="button" class="os-tab" data-os-tab="roku">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M9 20h6"/></svg>
+        <span>Roku</span>
+      </button>
+      <button type="button" class="os-tab" data-os-tab="desktop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20"/></svg>
+        <span>Desktop &amp; Web</span>
+      </button>
+    </div>
+
+    <!-- Panel 0: Android Mobile (Celulares y Tablets) — Diagramación idéntica a Nuvio -->
+    <div id="os-panel-mobile" class="download-panel nuvio-dl-card os-panel hidden">
+      <div class="nuvio-dl-left">
+        <h3>Aura TV para Android (Celular y Tablet)</h3>
+        <p>Lleva tus canales en vivo, películas, series y add-ons en el bolsillo. El mismo APK universal funciona con controles táctiles en smartphones y tablets Android.</p>
+      </div>
+      <div class="nuvio-dl-right">
+        <div class="nuvio-brand-logos" aria-label="Android Mobile">
+          <div class="brand-logo-item">
+            <svg width="42" height="28" viewBox="0 0 42 28" fill="none" aria-hidden="true">
+              <path d="M9.5 6.2L6.6 1.5C6.3 1 5.7 0.9 5.2 1.2C4.7 1.5 4.6 2.1 4.9 2.6L7.9 7.4C3.8 9.9 1 14.3 0.6 19.5H41.4C41 14.3 38.2 9.9 34.1 7.4L37.1 2.6C37.4 2.1 37.3 1.5 36.8 1.2C36.3 0.9 35.7 1 35.4 1.5L32.5 6.2C29.1 4.6 25.2 3.7 21 3.7C16.8 3.7 12.9 4.6 9.5 6.2ZM12.5 14.5C11.4 14.5 10.5 13.6 10.5 12.5C10.5 11.4 11.4 10.5 12.5 10.5C13.6 10.5 14.5 11.4 14.5 12.5C14.5 13.6 13.6 14.5 12.5 14.5ZM29.5 14.5C28.4 14.5 27.5 13.6 27.5 12.5C27.5 11.4 28.4 10.5 29.5 10.5C30.6 10.5 31.5 11.4 31.5 12.5C31.5 13.6 30.6 14.5 29.5 14.5Z" fill="#3DDC84"/>
+            </svg>
+            <span style="font-weight:700;">Android</span>
+          </div>
+        </div>
+
+        <div class="nuvio-pill-actions">
+          <a class="nuvio-pill-btn primary-pill" href="aura.apk" download="AURA_TV_v2.1.apk">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Descargar APK (9,5 MB)</span>
+          </a>
+          <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraMobile" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>AuraMobile en GitHub</span>
+          </a>
+          <a class="nuvio-pill-btn" href="#device">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6l6 6-6 6"/></svg>
+            <span>Vincular dispositivo</span>
+          </a>
+        </div>
+        <div class="nuvio-dl-subnote">Compatible con <b>Android 6.0+</b> en celulares, tablets, Android TV y Google TV.</div>
+      </div>
+    </div>
+
+    <!-- Panel 1: TV (Android TV & Google TV) — Diagramación idéntica a Nuvio -->
+    <div id="os-panel-android" class="download-panel nuvio-dl-card os-panel">
+      <div class="nuvio-dl-left">
+        <h3>Aura TV para Android TV y Google TV</h3>
+        <p>Explora y reproduce tus canales en vivo y catálogos usando una interfaz OLED diseñada para navegación por control remoto (D-pad) y pantallas de televisión.</p>
+      </div>
+      <div class="nuvio-dl-right">
+        <div class="nuvio-brand-logos" aria-label="Android TV y Google TV">
+          <!-- Logo Android TV -->
+          <div class="brand-logo-item">
+            <span style="font-weight:700;">Android</span><span style="font-weight:300;margin-left:4px;">TV</span>
+          </div>
+          <!-- Logo Google TV con icono multicolor oficial -->
+          <div class="brand-logo-item">
+            <svg width="38" height="28" viewBox="0 0 38 28" fill="none" aria-hidden="true">
+              <rect x="2" y="2" width="34" height="24" rx="5" stroke="#4285F4" stroke-width="3.6"/>
+              <path d="M2 9V7C2 4.23858 4.23858 2 7 2H19" stroke="#EA4335" stroke-width="3.6" stroke-linecap="round"/>
+              <path d="M2 15V21C2 23.7614 4.23858 26 7 26H21" stroke="#34A853" stroke-width="3.6" stroke-linecap="round"/>
+              <path d="M19 26H31C33.7614 26 36 23.7614 36 21V13" stroke="#FBBC05" stroke-width="3.6" stroke-linecap="round"/>
+            </svg>
+            <span style="font-weight:600;">Google TV</span>
+          </div>
+        </div>
+
+        <div class="nuvio-pill-actions">
+          <a class="nuvio-pill-btn primary-pill" href="aura.apk" download="AURA_TV_v2.1.apk">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Android TV APK (9,5 MB)</span>
+          </a>
+          <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraTV-Android" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>AuraTV-Android en GitHub</span>
+          </a>
+          <a class="nuvio-pill-btn" href="#device">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6l6 6-6 6"/></svg>
+            <span>Vincular mi TV</span>
+          </a>
+        </div>
+        <div class="nuvio-dl-subnote">Código / URL directa en la app Downloader: <b>https://auratv.site.je/aura.apk</b></div>
+      </div>
+    </div>
+
+    <!-- Panel 2: Smart TV (Samsung Tizen & WebOS) — Diagramación idéntica a Nuvio -->
+    <div id="os-panel-samsung" class="download-panel nuvio-dl-card os-panel hidden">
+      <div class="nuvio-dl-left">
+        <h3>Aura TV para Samsung Smart TV</h3>
+        <p>Ejecuta Aura TV directamente en tu televisor Samsung Tizen sin conectar dispositivos adicionales, o instala el paquete nativo (.WGT) desde tu PC o memoria USB.</p>
+      </div>
+      <div class="nuvio-dl-right">
+        <div class="nuvio-brand-logos" aria-label="Samsung Tizen y Smart TV">
+          <!-- Logo TIZEN con remolino azul/cian -->
+          <div class="brand-logo-item tizen-word">
+            <span>TIZEN</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" style="margin-left:-4px;margin-top:-18px;" aria-hidden="true">
+              <circle cx="12" cy="12" r="2.2" fill="#38BDF8"/>
+              <path d="M12 3C14.5 5.5 14.5 8.5 12 10M21 12C18.5 14.5 15.5 14.5 14 12M12 21C9.5 18.5 9.5 15.5 12 14M3 12C5.5 9.5 8.5 9.5 10 12" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <!-- Logo webOS / Smart Browser -->
+          <div class="brand-logo-item webos-word">
+            <span>web<b style="font-weight:600;">OS</b></span>
+          </div>
+        </div>
+
+        <div class="nuvio-pill-actions">
+          <a class="nuvio-pill-btn primary-pill" href="samsung/index.html" id="samsungDirectLaunchBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+            <span>Abrir en este TV Samsung</span>
+          </a>
+          <a class="nuvio-pill-btn pc-only-download" href="downloads/AURA_TV_Samsung_Installer.zip" download="AURA_TV_Samsung_Installer.zip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Tizen Package (PC)</span>
+          </a>
+          <a class="nuvio-pill-btn pc-only-download" href="downloads/AURA_TV_Samsung_USB.zip" download="AURA_TV_Samsung_USB.zip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Paquete USB</span>
+          </a>
+          <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraTV-Samsung" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div class="nuvio-dl-subnote">En tu TV Samsung pulsa <b>Abrir en este TV Samsung</b> y agrégalo a <b>★ Inicio</b> en el navegador.</div>
+      </div>
+    </div>
+
+    <!-- Panel 3: Roku OS -->
+    <div id="os-panel-roku" class="download-panel nuvio-dl-card os-panel hidden">
+      <div class="nuvio-dl-left">
+        <h3>Aura TV para Roku TV y Roku Stick</h3>
+        <p>Instala el paquete SceneGraph nativo en tu televisor o dispositivo Roku mediante el Modo Desarrollador y sincroniza tus listas con tu MAC y Device Key.</p>
+      </div>
+      <div class="nuvio-dl-right">
+        <div class="nuvio-brand-logos" aria-label="Roku OS">
+          <div class="brand-logo-item roku-word">
+            <span>ROKU</span>
+          </div>
+          <div class="brand-logo-item" style="font-size:24px;color:#a1a1aa;font-weight:500;">
+            <span>Smart TV</span>
+          </div>
+        </div>
+
+        <div class="nuvio-pill-actions">
+          <a class="nuvio-pill-btn primary-pill" href="downloads/AURA_TV_Roku.zip" download="AURA_TV_Roku.zip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Roku Package (.ZIP)</span>
+          </a>
+          <a class="nuvio-pill-btn" href="#device">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6l6 6-6 6"/></svg>
+            <span>Vincular mi Roku</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 4: Desktop & Web Player -->
+    <div id="os-panel-desktop" class="download-panel nuvio-dl-card os-panel hidden">
+      <div class="nuvio-dl-left">
+        <h3>Aura TV para Windows 10/11 y Navegador</h3>
+        <p>Descarga la aplicación nativa para Windows (sin bloqueos CORS ni Mixed Content para streams IPTV HTTP/HTTPS) o abre el reproductor web con soporte de teclado, ratón y pantalla completa.</p>
+      </div>
+      <div class="nuvio-dl-right">
+        <div class="nuvio-brand-logos" aria-label="Windows, macOS y Web">
+          <!-- Windows Icon -->
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="#00A4EF" aria-label="Windows">
+            <path d="M2 3.5L10.8 2.3V11.4H2V3.5ZM11.8 2.1L22 0.7V11.4H11.8V2.1ZM2 12.5H10.8V21.7L2 20.5V12.5ZM11.8 12.5H22V23.3L11.8 21.9V12.5Z"/>
+          </svg>
+          <!-- Apple Icon -->
+          <svg width="40" height="42" viewBox="0 0 24 24" fill="#FFFFFF" aria-label="macOS">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.33c.64-.78 1.08-1.86.96-2.94-.93.04-2.06.62-2.72 1.4-.58.68-1.1 1.79-.96 2.84 1.04.08 2.08-.52 2.72-1.3z"/>
+          </svg>
+          <!-- Web / Linux -->
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#E2E8F0" stroke-width="1.8" aria-label="Web">
+            <circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8M3.6 15h16.8M12 3a14.5 14.5 0 0 0 0 18M12 3a14.5 14.5 0 0 1 0 18"/>
+          </svg>
+        </div>
+
+        <div class="nuvio-pill-actions">
+          <a class="nuvio-pill-btn primary-pill pc-only-download" href="downloads/AURA_TV_Windows_Setup.exe" download="AURA_TV_Windows_Setup.exe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Windows App (.EXE)</span>
+          </a>
+          <a class="nuvio-pill-btn pc-only-download" href="downloads/AURA_TV_Windows_Portable.zip" download="AURA_TV_Windows_Portable.zip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+            <span>Windows Portable (.ZIP)</span>
+          </a>
+          <a class="nuvio-pill-btn" href="samsung/index.html">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+            <span>Abrir Web Player</span>
+          </a>
+          <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraWeb" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>AuraWeb en GitHub</span>
+          </a>
+        </div>
+        <div class="nuvio-dl-subnote">Compatible con <b>Windows 10 y Windows 11 (64-bit)</b> · Atajos: <b>F11</b> Pantalla Completa · <b>0-9</b> Ir a canal · <b>Rueda del ratón</b> Scroll rápido.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="section-intro">
+      <span class="eyebrow">MENOS PASOS. MÁS HISTORIAS.</span>
+      <h2>Todo empieza contigo.</h2>
+      <p>Tus fuentes y tu pantalla, conectadas desde un mismo lugar.</p>
+    </div>
+    <div class="feature-grid">
+      <article>
+        <span class="feature-number">01 / CONECTA</span>
+        <div class="feature-art link-art"><span>▣</span><i>······</i><span>▯</span></div>
+        <h3>Del navegador a tu TV.</h3>
+        <p>Vincula tu dispositivo con su MAC y Device Key. Administra tus listas sin escribir direcciones largas con el control remoto.</p>
+        <a href="#device">Conectar mi pantalla ↗</a>
+      </article>
+      <article>
+        <span class="feature-number">02 / PERSONALIZA</span>
+        <div class="feature-art">
+          <span class="source-pill">M3U</span>
+          <span class="source-pill">Xtream</span>
+          <span class="source-pill">Add-ons</span>
+        </div>
+        <h3>Tu contenido tiene su lugar.</h3>
+        <p>Añade tus listas M3U, conecta tus credenciales Xtream o instala add-ons mediante su enlace de manifiesto.</p>
+        <a href="#upload">Administrar mis fuentes ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section control-v2" id="device">
+    <div class="connect-layout">
+      <div class="connect-story">
+        <span class="eyebrow">HECHO PARA TU ESPACIO</span>
+        <h2>Tu TV, conectado.<br><span>Así de simple.</span></h2>
+        <p>Un pequeño paso aquí.<br>Todo lo que te gusta, allá.</p>
+        <div class="connection-visual" aria-hidden="true">
+          <div class="device-outline">
+            <img src="aura_logo_inner.png" alt="">
+            <span class="tv-led"></span>
+          </div>
+          <div class="connection-line"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="connection-phone"><span>↗</span><i></i></div>
+        </div>
+        <div class="connection-caption">
+          <span>01</span> Abre Aura TV en tu televisor.<br>
+          <span>02</span> Copia los datos de Configuración.
+        </div>
+      </div>
+
+      <div class="pair-card">
+        <div class="pair-top">
+          <span class="line-icon">▣</span>
+          <span>Vincula tu pantalla</span>
+          <span class="pair-tag">PASO 01</span>
+        </div>
+        <p>Encuentra estos dos datos en tu app Aura TV.</p>
+        <div class="pair-fields">
+          <label for="mac">Dirección MAC
+            <input id="mac" placeholder="94:23:00:00:00:00" autocomplete="off" spellcheck="false">
+          </label>
+          <label for="deviceKey">Device Key <span>6 dígitos</span>
+            <input id="deviceKey" placeholder="000000" autocomplete="off" inputmode="numeric" maxlength="6">
+          </label>
+        </div>
+        <button id="connectBtn" type="button" class="control-button">Conectar mi TV <span>↗</span></button>
+        <div id="deviceStatus" role="status" aria-live="polite" class="hidden control-status"></div>
+        <details class="pair-help">
+          <summary>¿Dónde encuentro mis datos? <span>+</span></summary>
+          <p>Abre Aura TV en tu televisor y entra en Configuración. Allí encontrarás tu MAC y el Device Key de 6 dígitos. También aparecen en la esquina inferior derecha de la pantalla de inicio y en Playlists.</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="library-workspace" id="upload">
+      <div class="workspace-heading">
+        <div>
+          <span class="eyebrow">UN ESPACIO PARA LO TUYO</span>
+          <h2>Dale vida a tu pantalla.</h2>
+        </div>
+        <p>Conecta tus fuentes.<br>Elige qué ver después.</p>
+      </div>
+
+      <div class="workspace-tabs" role="tablist" aria-label="Administrar contenido">
+        <button type="button" role="tab" id="tab-lists" aria-selected="true" aria-controls="panel-lists" data-panel="lists">Mis listas <span>↗</span></button>
+        <button type="button" role="tab" id="tab-addons" aria-selected="false" aria-controls="panel-addons" data-panel="addons" tabindex="-1">Add-ons <span>＋</span></button>
+      </div>
+
+      <!-- Panel 1: Listas Xtream / M3U -->
+      <div id="panel-lists" role="tabpanel" aria-labelledby="tab-lists" class="workspace-panel">
+        <div class="source-editor">
+          <div class="editor-title">
+            <span class="step-dot">02</span>
+            <h3>Añade tu contenido</h3>
+          </div>
+          <p>Elige cómo quieres conectar tu lista.</p>
+          <div class="source-switch">
+            <button type="button" class="tab active" data-mode="xtream">Cuenta Xtream</button>
+            <button type="button" class="tab" data-mode="m3u">Enlace M3U</button>
+          </div>
+          <form id="playlistForm" novalidate>
+            <label for="playlistName">Nombre de la lista
+              <input id="playlistName" placeholder="Por ejemplo, TV de casa" required>
+            </label>
+            <div id="xtreamFields">
+              <label for="host">Servidor
+                <input id="host" placeholder="http://tu-servidor.com:8080" type="text" inputmode="url" autocomplete="off">
+              </label>
+              <div class="credential-row">
+                <label for="username">Usuario
+                  <input id="username" placeholder="Tu usuario" autocomplete="off">
+                </label>
+                <label for="password">Contraseña
+                  <input id="password" type="password" placeholder="Tu contraseña" autocomplete="off">
+                </label>
+              </div>
+            </div>
+            <div id="m3uFields" class="hidden">
+              <label for="playlistUrl">Enlace de tu lista
+                <input id="playlistUrl" placeholder="http://tu-servidor.com/lista.m3u8" type="text" inputmode="url" autocomplete="off">
+              </label>
+            </div>
+            <button id="savePlaylistBtn" class="control-button" type="submit">Guardar en mi TV <span>↗</span></button>
+            <div id="uploadStatus" role="status" aria-live="polite" class="hidden control-status"></div>
+          </form>
+        </div>
+
+        <div class="source-collection" id="playlists">
+          <div class="collection-heading">
+            <h3>Tu colección</h3>
+            <button id="refreshWebBtn" type="button" aria-label="Actualizar listas" title="Actualizar listas">↻</button>
+          </div>
+          <div id="playlistList" class="collection-content">
+            <div class="empty-state">
+              <div class="empty-art"><i></i><i></i><i></i></div>
+              <h4>Aquí comienza tu colección.</h4>
+              <p>Conecta tu TV para ver tus listas<br>y tener todo a mano.</p>
+              <span>M3U · XTREAM</span>
+            </div>
+          </div>
+          <div class="collection-foot"><i></i> Tus listas, vinculadas a tu pantalla.</div>
+        </div>
+      </div>
+
+      <!-- Panel 2: Add-ons -->
+      <div id="panel-addons" role="tabpanel" aria-labelledby="tab-addons" class="workspace-panel" hidden>
+        <div class="source-editor" id="addons">
+          <div class="editor-title">
+            <span class="step-dot">＋</span>
+            <h3>Abre nuevas posibilidades.</h3>
+          </div>
+          <p>Añade un catálogo con el enlace de su manifiesto.</p>
+          <div id="addonForm">
+            <label for="addonManifestUrl">Enlace del add-on
+              <input id="addonManifestUrl" placeholder="https://dominio.com/manifest.json" type="text" inputmode="url" autocomplete="off">
+            </label>
+            <div class="addon-hint">
+              <span>↗</span>
+              <p>Pega una dirección que termine en <b>manifest.json</b>. El add-on quedará vinculado a tu TV.</p>
+            </div>
+            <button id="installAddonBtn" type="button" class="control-button">Añadir a mi TV <span>＋</span></button>
+            <div id="addonStatus" role="status" aria-live="polite" class="hidden control-status"></div>
+          </div>
+        </div>
+
+        <div class="source-collection">
+          <div class="collection-heading">
+            <h3>Tus add-ons</h3>
+            <button id="refreshAddonsBtn" type="button" aria-label="Actualizar add-ons" title="Actualizar add-ons">↻</button>
+          </div>
+          <div id="addonList" class="collection-content">
+            <div class="empty-state">
+              <div class="addon-empty-icon">＋</div>
+              <h4>Una experiencia más tuya.</h4>
+              <p>Conecta tu TV para consultar<br>y organizar tus add-ons.</p>
+              <span>CATÁLOGOS · METADATOS</span>
+            </div>
+          </div>
+          <div class="collection-foot"><i></i> Tú eliges las fuentes que conectas.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Estilo Nuvio: "Made in the open" / Creador & GitHub -->
+  <section class="section open-source-section" id="open-source">
+    <div class="open-left">
+      <h2>Hecho en<br>código abierto.</h2>
+      <p>Aura TV está desarrollado y mantenido en GitHub. Explora la arquitectura multi-plataforma, revisa las actualizaciones o contribuye al proyecto.</p>
+
+      <div class="open-stats">
+        <div class="open-stat">
+          <strong>4</strong>
+          <span>Repositorios oficiales en GitHub (AuraTV-Android, AuraMobile, AuraTV-Samsung &amp; AuraWeb)</span>
+        </div>
+        <div class="open-stat">
+          <strong>1</strong>
+          <span>Persona que ha contribuido al proyecto</span>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:10px;">
+        <a class="github-open-btn" href="https://github.com/andresosky18" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+          </svg>
+          <span>Abrir en GitHub</span>
+        </a>
+        <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraTV-Android" target="_blank" rel="noopener noreferrer">
+          <span>AuraTV-Android</span>
+        </a>
+        <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraMobile" target="_blank" rel="noopener noreferrer">
+          <span>AuraMobile</span>
+        </a>
+        <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraTV-Samsung" target="_blank" rel="noopener noreferrer">
+          <span>AuraTV-Samsung</span>
+        </a>
+        <a class="nuvio-pill-btn" href="https://github.com/andresosky18/AuraWeb" target="_blank" rel="noopener noreferrer">
+          <span>AuraWeb</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="open-right">
+      <div class="open-right-label">CONTRIBUTORS · CREADOR PRINCIPAL</div>
+      <div class="contributors-showcase">
+        <div class="lead-contributor-card">
+          <a href="https://github.com/andresosky18" target="_blank" rel="noopener noreferrer" class="lead-avatar-link" title="Andres Aragon (@andresosky18)">
+            <img src="https://github.com/andresosky18.png" alt="Andres Aragon" onerror="this.src='aura_logo_inner.png'">
+          </a>
+          <div class="lead-info">
+            <h3>Andres Aragon</h3>
+            <a href="https://github.com/andresosky18" target="_blank" rel="noopener noreferrer">@andresosky18 ↗</a>
+            <p>Creador, Arquitecto &amp; Desarrollador Principal de Aura TV</p>
+          </div>
+        </div>
+
+        <div class="avatar-matrix" aria-label="Colaboradores del proyecto">
+          <a href="https://github.com/andresosky18" target="_blank" rel="noopener noreferrer" class="avatar-slot active-author" title="Andres Aragon (@andresosky18)">
+            <img src="https://github.com/andresosky18.png" alt="Andres Aragon" onerror="this.src='aura_logo_inner.png'">
+          </a>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">+</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+          <div class="avatar-slot ghost-slot" aria-hidden="true">·</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section help-v2">
+    <div class="help-heading">
+      <span class="eyebrow">ESTAMOS PARA AYUDARTE</span>
+      <h2>Un momento.<br><span>Y a disfrutar.</span></h2>
+      <p>Lo esencial para empezar<br>con Aura TV.</p>
+      <a href="#device">Volver a conectar mi TV ↗</a>
+    </div>
+    <div class="help-questions">
+      <details>
+        <summary><span class="question-number">01</span><span>¿Dónde encuentro mi MAC y Device Key?</span><i>+</i></summary>
+        <p>Entra en Configuración dentro de Aura TV en tu televisor. Copia la MAC y el Device Key de 6 dígitos en el formulario de conexión. También puedes escanear el código QR que aparece en tu televisor.</p>
+      </details>
+      <details>
+        <summary><span class="question-number">02</span><span>¿Cómo instalo Aura TV en Samsung, Android TV o Roku?</span><i>+</i></summary>
+        <p>En la sección Descargas elige la marca de tu TV: en Android TV descarga el APK (o usa Downloader con https://auratv.site.je/aura.apk); en Samsung descarga el Instalador PC (.ZIP), el paquete USB o abre la Web App directa; y en Roku descarga el paquete .ZIP.</p>
+      </details>
+      <details>
+        <summary><span class="question-number">03</span><span>¿Aura TV incluye canales o películas?</span><i>+</i></summary>
+        <p>El contenido depende de las listas y fuentes que conectes. Utiliza tus propias fuentes o contenido al que tengas autorización para acceder.</p>
+      </details>
+      <details>
+        <summary><span class="question-number">04</span><span>¿Qué necesito para añadir una lista?</span><i>+</i></summary>
+        <p>Conecta primero tu TV con su MAC y Device Key. Para M3U, necesitas el enlace directo de tu lista (.m3u / .m3u8). Para Xtream, necesitas la dirección del servidor, el usuario y la contraseña de tu proveedor.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="closing">
+    <img src="aura_logo_inner.png" alt="Aura TV">
+    <h2>Tu pantalla. Tus historias.</h2>
+    <a class="button primary" href="#downloads">Descargar Aura TV &nbsp; ↓</a>
+  </section>
+
+  <footer>
+    <span>© 2026 Aura TV</span>
+    <span>Tu contenido. A tu manera.</span>
+    <a href="#hero">Volver arriba ↑</a>
+  </footer>
+</main>
+<script src="app.js?v=20261108-3"></script>
+</body>
+</html>

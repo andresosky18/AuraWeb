@@ -1,0 +1,11 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Large local installers (hosted via GitHub Releases / CDN)
+aura.apk
+downloads/*.apk
+downloads/*.zip
+downloads/*.wgt
+ChatGPT*.png

@@ -1,0 +1,15 @@
+AURA TV - REDISEÑO COMPLETO + DESCARGAS MULTI-PLATAFORMA (ANDROID TV, SAMSUNG TIZEN & ROKU)
+
+1. Guarda una copia de tu web actual.
+2. Sube el contenido de esta carpeta (index.html, styles.css, app.js, aura.apk, aura_logo_inner.png, mountains.jpg y las carpetas downloads/ y samsung/) directamente a la carpeta htdocs de tu dominio (https://auratv.site.je/).
+3. Abre tu dominio y actualiza con Ctrl + F5.
+
+Características incluidas:
+- Descarga directa de Android TV / Fire TV (aura.apk y downloads/AURA_TV_Android.apk).
+- Descarga directa de Samsung Smart TV Tizen:
+  * Instalador PC Wi-Fi 1-Clic (downloads/AURA_TV_Samsung_Installer.zip)
+  * Paquete para Memoria USB carpeta userwidget (downloads/AURA_TV_Samsung_USB.zip)
+  * Archivo nativo suelto (downloads/AuraTV_Samsung.wgt)
+  * Versión Web App directa para Samsung Browser (carpeta samsung/)
+- Descarga directa de Roku (downloads/AURA_TV_Roku.zip).
+- Vinculación en tiempo real por MAC + Device Key, gestor de listas Xtream / M3U y gestor de Add-ons.
