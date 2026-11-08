@@ -23,9 +23,11 @@
 
 | Repository | Platform | Description |
 | :--- | :--- | :--- |
+| [**AuraTV-Windows**](https://github.com/andresosky18/AuraTV-Windows) | Windows 10 & 11 (64-bit) | Native C# WebView2 desktop client (`AURA_TV.exe` & Setup Installer) |
 | [**AuraMobile**](https://github.com/andresosky18/AuraMobile) | Android (Phone & Tablet) | Native Media3 ExoPlayer client with touch & AMOLED cinema UI |
 | [**AuraTV-Android**](https://github.com/andresosky18/AuraTV-Android) | Android TV, Google TV & Fire TV | 10-foot D-pad client with hardware + software decoder fallback |
 | [**AuraTV-Samsung**](https://github.com/andresosky18/AuraTV-Samsung) | Samsung Smart TV (Tizen OS) | Native `.wgt` widget (`AVPlay`) & Smart TV Web App |
+| [**AuraTV-Roku**](https://github.com/andresosky18/AuraTV-Roku) | Roku OS (SceneGraph) | Native BrightScript & SceneGraph 10-foot TV client |
 | [**AuraWeb**](https://github.com/andresosky18/AuraWeb) | Web Portal & Desktop Browser | Cloud Device Sync (`MAC` + `Device Key`), Add-ons manager & Web Player |
 
 ---
